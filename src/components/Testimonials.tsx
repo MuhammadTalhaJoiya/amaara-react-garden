@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import testimonialWoman from '@/assets/testimonial-woman.jpg';
 import testimonialMan from '@/assets/testimonial-man.jpg';
+import testimonialWoman2 from '@/assets/testimonial-woman-2.jpg';
+import testimonialMan2 from '@/assets/testimonial-man-2.jpg';
 
 interface Testimonial {
   id: number;
@@ -16,7 +18,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Sarah Johnson",
     image: testimonialWoman,
-    quote: "AMAARA's ashwagandha powder has completely transformed my stress levels. I feel more balanced and energetic than I have in years. The quality is exceptional!",
+    quote: "AMAARA's matcha powder has completely transformed my morning routine. I feel more energized and focused than ever. The quality is exceptional!",
     location: "Portland, OR",
     rating: 5
   },
@@ -31,9 +33,17 @@ const testimonials: Testimonial[] = [
   {
     id: 3,
     name: "Emma Davis",
-    image: testimonialWoman,
+    image: testimonialWoman2,
     quote: "I've tried many organic brands, but AMAARA stands out for their purity and effectiveness. Their customer service is also outstanding - they truly care about wellness.",
     location: "Denver, CO",
+    rating: 5
+  },
+  {
+    id: 4,
+    name: "David Rodriguez",
+    image: testimonialMan2,
+    quote: "The coconut oil is amazing for both cooking and skincare. I love that everything is organic and sustainably sourced. Highly recommend!",
+    location: "Miami, FL",
     rating: 5
   }
 ];

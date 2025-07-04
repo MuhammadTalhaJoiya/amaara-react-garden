@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import productAshwagandha from '@/assets/product-ashwagandha.jpg';
+import productMatcha from '@/assets/product-matcha-jar.jpg';
+import productCoconutOil from '@/assets/product-coconut-oil.jpg';
 import productTurmeric from '@/assets/product-turmeric.jpg';
-import productGreenTea from '@/assets/product-green-tea.jpg';
 
 interface Product {
   id: number;
@@ -17,35 +17,35 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Organic Ashwagandha Powder",
-    price: "$24.99",
-    image: productAshwagandha,
-    description: "Premium quality ashwagandha root powder for stress relief and vitality",
-    variants: ["100g", "250g", "500g"]
+    name: "Organic Matcha Powder",
+    price: "$32.99",
+    image: productMatcha,
+    description: "Premium ceremonial grade matcha powder for energy and focus",
+    variants: ["50g", "100g", "200g"]
   },
   {
     id: 2,
-    name: "Turmeric Capsules",
-    price: "$19.99",
-    image: productTurmeric,
-    description: "High-potency turmeric with black pepper for maximum absorption",
-    variants: ["60 capsules", "120 capsules", "180 capsules"]
+    name: "Organic Coconut Oil",
+    price: "$18.99",
+    image: productCoconutOil,
+    description: "Cold-pressed virgin coconut oil for cooking and beauty",
+    variants: ["250ml", "500ml", "1L"]
   },
   {
     id: 3,
-    name: "Organic Green Tea",
-    price: "$16.99",
-    image: productGreenTea,
-    description: "Loose leaf organic green tea rich in antioxidants",
-    variants: ["50g", "100g", "200g"]
+    name: "Turmeric Capsules",
+    price: "$24.99",
+    image: productTurmeric,
+    description: "High-potency turmeric with black pepper for maximum absorption",
+    variants: ["60 capsules", "120 capsules", "180 capsules"]
   }
 ];
 
 const FeaturedProducts = () => {
   const [selectedVariants, setSelectedVariants] = useState<{[key: number]: string}>({
-    1: "100g",
-    2: "60 capsules", 
-    3: "50g"
+    1: "50g",
+    2: "250ml", 
+    3: "60 capsules"
   });
 
   const handleVariantChange = (productId: number, variant: string) => {

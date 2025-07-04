@@ -8,20 +8,20 @@
 
 @layer base {
   :root {
-    /* Brand Colors - Soft, Natural Palette */
+    /* Brand Colors - Amaara Pastel Palette */
     --background: 0 0% 100%;
-    --foreground: 30 20% 15%;
+    --foreground: 0 0% 20%;
     
-    /* Organic Green Theme */
-    --organic-green: 120 25% 70%;
-    --organic-green-light: 120 30% 85%;
-    --organic-green-dark: 120 25% 55%;
-    --organic-green-muted: 120 15% 92%;
+    /* Pastel Green Theme - #A8D5BA */
+    --organic-green: 140 30% 73%;
+    --organic-green-light: 140 35% 83%;
+    --organic-green-dark: 140 30% 60%;
+    --organic-green-muted: 140 20% 95%;
     
-    /* Warm Earth Tones */
-    --earth-brown: 30 25% 25%;
-    --earth-cream: 45 25% 95%;
-    --earth-beige: 40 20% 88%;
+    /* Soft Pastel Tones */
+    --earth-brown: 0 0% 20%;
+    --earth-cream: 30 20% 97%;
+    --earth-beige: 30 20% 94%;
     
     /* UI Colors */
     --card: 0 0% 100%;
@@ -30,11 +30,11 @@
     --popover: 0 0% 100%;
     --popover-foreground: 30 20% 15%;
     
-    --primary: 120 25% 70%;
+    --primary: 140 30% 73%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 120 15% 92%;
-    --secondary-foreground: 30 20% 15%;
+    --secondary: 140 20% 95%;
+    --secondary-foreground: 0 0% 20%;
     
     --muted: 40 20% 88%;
     --muted-foreground: 30 15% 45%;

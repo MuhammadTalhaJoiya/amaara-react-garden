@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-organic-produce.jpg';
+import heroImage from '@/assets/hero-fresh-organic.jpg';
 import logoAmaara from '@/assets/logo-amaara.png';
 
 const Hero = () => {
@@ -17,10 +17,10 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Fresh Organic Produce" 
+          alt="Fresh Organic Herbs and Produce" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-white/40 via-transparent to-organic-green-muted/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-white/20 to-organic-green-muted/40"></div>
       </div>
 
       {/* Content */}

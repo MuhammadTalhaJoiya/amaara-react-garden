@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import organicHerbs from '@/assets/organic-herbs.jpg';
+import freshIngredients from '@/assets/fresh-turmeric-ginger.jpg';
 
 const InfoSections = () => {
   return (
@@ -10,8 +10,8 @@ const InfoSections = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="order-2 lg:order-1">
             <img 
-              src={organicHerbs} 
-              alt="Organic Herbs and Botanicals"
+              src={freshIngredients} 
+              alt="Fresh Organic Turmeric and Ginger"
               className="w-full rounded-2xl shadow-organic"
             />
           </div>
@@ -103,8 +103,8 @@ const InfoSections = () => {
           
           <div>
             <img 
-              src={organicHerbs} 
-              alt="Traditional Herbal Medicine"
+              src={freshIngredients} 
+              alt="Fresh Organic Ingredients"
               className="w-full rounded-2xl shadow-organic"
             />
           </div>
