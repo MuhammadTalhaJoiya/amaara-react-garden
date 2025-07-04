@@ -5,27 +5,27 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "bg-organic-green text-white hover:bg-organic-green-dark shadow-soft hover:shadow-organic rounded-xl",
+        default: "bg-organic-green text-white hover:bg-organic-green-dark shadow-soft hover:shadow-organic rounded-full transform hover:-translate-y-1",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-xl",
+          "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-full",
         outline:
-          "border-2 border-organic-green bg-transparent text-organic-green hover:bg-organic-green hover:text-white rounded-xl",
+          "border-2 border-organic-green bg-transparent text-organic-green hover:bg-organic-green hover:text-white rounded-full",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-xl",
-        ghost: "hover:bg-accent hover:text-accent-foreground rounded-xl",
+          "bg-earth-cream text-earth-brown hover:bg-earth-beige rounded-full",
+        ghost: "hover:bg-organic-green-muted hover:text-organic-green rounded-full",
         link: "text-organic-green underline-offset-4 hover:underline",
-        hero: "bg-gradient-organic text-white hover:shadow-organic transform hover:scale-105 rounded-xl font-semibold",
-        earth: "bg-gradient-earth text-earth-brown hover:shadow-soft rounded-xl border border-earth-brown/20",
+        hero: "bg-organic-green text-white hover:bg-organic-green-dark shadow-organic transform hover:-translate-y-2 rounded-full font-semibold text-lg",
+        earth: "bg-earth-beige text-earth-brown hover:bg-earth-cream rounded-full border border-earth-brown/20",
       },
       size: {
-        default: "h-12 px-6 py-3",
-        sm: "h-10 px-4 py-2",
-        lg: "h-14 px-8 py-4 text-base",
-        xl: "h-16 px-10 py-5 text-lg",
+        default: "h-12 px-8 py-3 text-base",
+        sm: "h-10 px-6 py-2 text-sm",
+        lg: "h-14 px-10 py-4 text-lg",
+        xl: "h-16 px-12 py-5 text-xl",
         icon: "h-12 w-12",
       },
     },

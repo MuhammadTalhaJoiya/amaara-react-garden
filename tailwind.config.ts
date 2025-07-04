@@ -19,8 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				primary: ['Inter', 'sans-serif'],
-				display: ['Playfair Display', 'serif'],
+				primary: ['Poppins', 'sans-serif'],
+				display: ['Poppins', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -29,17 +29,17 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				'organic-green': {
-					DEFAULT: 'hsl(var(--organic-green))',
-					light: 'hsl(var(--organic-green-light))',
-					dark: 'hsl(var(--organic-green-dark))',
-					muted: 'hsl(var(--organic-green-muted))',
+					DEFAULT: '#A8D5BA',
+					light: '#C4E3D0',
+					dark: '#8BC7A0',
+					muted: '#F0F8F3',
 				},
-				'earth-brown': 'hsl(var(--earth-brown))',
-				'earth-cream': 'hsl(var(--earth-cream))',
-				'earth-beige': 'hsl(var(--earth-beige))',
+				'earth-brown': '#333333',
+				'earth-cream': '#FDF6F0',
+				'earth-beige': '#F5EDE4',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#A8D5BA',
+					foreground: '#FFFFFF'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -87,9 +87,9 @@ export default {
 				'gradient-earth': 'var(--gradient-earth)',
 			},
 			boxShadow: {
-				'soft': 'var(--shadow-soft)',
-				'organic': 'var(--shadow-organic)',
-				'card': 'var(--shadow-card)',
+				'soft': '0 4px 20px rgba(168, 213, 186, 0.15)',
+				'organic': '0 8px 30px rgba(168, 213, 186, 0.2)',
+				'card': '0 2px 15px rgba(0, 0, 0, 0.08)',
 			},
 			keyframes: {
 				'accordion-down': {
@@ -111,7 +111,7 @@ export default {
 				'fade-in': {
 					'0%': {
 						opacity: '0',
-						transform: 'translateY(20px)'
+						transform: 'translateY(30px)'
 					},
 					'100%': {
 						opacity: '1',
@@ -121,19 +121,28 @@ export default {
 				'slide-in': {
 					'0%': {
 						opacity: '0',
-						transform: 'translateX(-20px)'
+						transform: 'translateX(-30px)'
 					},
 					'100%': {
 						opacity: '1',
 						transform: 'translateX(0)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
 					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out',
-				'slide-in': 'slide-in 0.5s ease-out'
+				'fade-in': 'fade-in 0.8s ease-out',
+				'slide-in': 'slide-in 0.6s ease-out',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},
