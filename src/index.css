@@ -12,16 +12,16 @@
     --background: 0 0% 100%;
     --foreground: 0 0% 20%;
     
-    /* Primary Green - #A8D5BA */
-    --organic-green: 140 30% 73%;
-    --organic-green-light: 140 35% 83%;
-    --organic-green-dark: 140 30% 60%;
-    --organic-green-muted: 140 20% 95%;
+    /* Primary Green - Muted sage green like reference site */
+    --organic-green: 140 25% 65%;
+    --organic-green-light: 140 30% 75%;
+    --organic-green-dark: 140 25% 55%;
+    --organic-green-muted: 140 15% 95%;
     
-    /* Beige/Cream Tones - #FDF6F0 */
-    --earth-brown: 0 0% 20%;
-    --earth-cream: 30 50% 97%;
-    --earth-beige: 30 40% 94%;
+    /* Beige/Cream Tones - Warm neutral palette like reference */
+    --earth-brown: 30 15% 25%;
+    --earth-cream: 30 25% 96%;
+    --earth-beige: 30 20% 92%;
     
     /* UI Colors */
     --card: 0 0% 100%;

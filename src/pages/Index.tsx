@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
+import HeroSection from '@/components/HeroSection';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import InfoSections from '@/components/InfoSections';
 import ComparisonGrid from '@/components/ComparisonGrid';
@@ -10,10 +10,10 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-earth-cream">
       <Header />
       <main>
-        <Hero />
+        <HeroSection />
         <FeaturedProducts />
         <InfoSections />
         <ComparisonGrid />
