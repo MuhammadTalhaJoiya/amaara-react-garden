@@ -42,7 +42,7 @@ const HeroSection = () => {
           </p>
 
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-earth-brown leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-earth-brown leading-tight">
             Your trusted manufacturing partner in the world of{' '}
             <span className="block mt-2">
               <em className="text-organic-green font-serif">Health & Wellness.</em>
