@@ -35,11 +35,11 @@ const ComparisonGrid = () => {
   ];
 
   return (
-    <section className="section-padding bg-organic-green-muted">
+    <section id="portfolio" className="section-padding bg-white">
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-6xl font-bold text-earth-brown mb-8">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-earth-brown mb-8">
             Why Choose <span className="text-organic-green">AMAARA</span>?
           </h2>
           <p className="text-xl md:text-2xl text-earth-brown/70 max-w-3xl mx-auto leading-relaxed">
@@ -48,7 +48,7 @@ const ComparisonGrid = () => {
         </div>
 
         {/* Comparison Table */}
-        <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-organic overflow-hidden">
+        <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-organic overflow-hidden">
           {/* Header */}
           <div className="grid grid-cols-3 bg-gradient-to-r from-organic-green to-organic-green-light text-white">
             <div className="p-6 lg:p-8 text-center font-semibold text-lg">Feature</div>
@@ -66,10 +66,10 @@ const ComparisonGrid = () => {
               key={index} 
               className={`grid grid-cols-3 ${index % 2 === 0 ? 'bg-white' : 'bg-earth-cream/50'} hover:bg-organic-green-muted/30 transition-colors duration-300`}
             >
-              <div className="p-6 lg:p-8 font-semibold text-earth-brown text-center lg:text-left">
+              <div className="p-6 lg:p-8 font-semibold text-earth-brown text-center lg:text-left border-r border-gray-100">
                 {item.feature}
               </div>
-              <div className="p-6 lg:p-8 border-l border-gray-200 text-center">
+              <div className="p-6 lg:p-8 border-r border-gray-100 text-center">
                 <div className="flex items-center justify-center space-x-3">
                   <div className="w-6 h-6 bg-organic-green rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -79,7 +79,7 @@ const ComparisonGrid = () => {
                   <span className="text-organic-green font-semibold">{item.amaara}</span>
                 </div>
               </div>
-              <div className="p-6 lg:p-8 border-l border-gray-200 text-center">
+              <div className="p-6 lg:p-8 text-center">
                 <div className="flex items-center justify-center space-x-3">
                   <div className="w-6 h-6 bg-gray-400 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -95,7 +95,7 @@ const ComparisonGrid = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <div className="inline-flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 bg-white rounded-2xl px-8 py-6 shadow-card">
+          <div className="inline-flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 bg-earth-cream rounded-2xl px-8 py-6 shadow-card">
             <div className="text-earth-brown font-semibold text-lg">Ready to experience the difference?</div>
             <button className="bg-organic-green text-white px-8 py-3 rounded-full hover:bg-organic-green-dark transition-all duration-300 font-medium shadow-soft hover:shadow-organic transform hover:-translate-y-1">
               Start Shopping

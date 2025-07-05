@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const InfoSections = () => {
   return (
-    <section id="learn" className="section-padding bg-white">
+    <section id="about" className="section-padding bg-earth-cream">
       <div className="container-custom">
         {/* First Info Block - Image Left */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center mb-32">
@@ -23,7 +23,7 @@ const InfoSections = () => {
           </div>
           
           <div className="order-1 lg:order-2 space-y-8">
-            <h2 className="text-4xl md:text-6xl font-bold text-earth-brown leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-earth-brown leading-tight">
               Pure Organic <span className="text-organic-green">Excellence</span>
             </h2>
             
@@ -65,7 +65,7 @@ const InfoSections = () => {
               </div>
             </div>
             
-            <Button variant="hero" size="lg" className="mt-8">
+            <Button variant="default" size="lg" className="mt-8 bg-organic-green hover:bg-organic-green-dark">
               Learn Our Process
             </Button>
           </div>
@@ -74,7 +74,7 @@ const InfoSections = () => {
         {/* Second Info Block - Image Right */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
           <div className="space-y-8">
-            <h2 className="text-4xl md:text-6xl font-bold text-earth-brown leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-earth-brown leading-tight">
               Traditional Wisdom, <span className="text-organic-green">Modern Science</span>
             </h2>
             
@@ -83,26 +83,26 @@ const InfoSections = () => {
               scientific research to bring you the most effective natural wellness solutions.
             </p>
             
-            <div className="grid grid-cols-2 gap-8">
-              <div className="text-center p-6 bg-earth-cream rounded-2xl">
+            <div className="grid grid-cols-2 gap-6">
+              <div className="text-center p-6 bg-white rounded-2xl shadow-soft">
                 <div className="text-4xl font-bold text-organic-green mb-2">10+</div>
                 <div className="text-earth-brown/70 font-medium">Years Experience</div>
               </div>
-              <div className="text-center p-6 bg-earth-cream rounded-2xl">
+              <div className="text-center p-6 bg-white rounded-2xl shadow-soft">
                 <div className="text-4xl font-bold text-organic-green mb-2">500+</div>
                 <div className="text-earth-brown/70 font-medium">Happy Customers</div>
               </div>
-              <div className="text-center p-6 bg-earth-cream rounded-2xl">
+              <div className="text-center p-6 bg-white rounded-2xl shadow-soft">
                 <div className="text-4xl font-bold text-organic-green mb-2">50+</div>
                 <div className="text-earth-brown/70 font-medium">Premium Products</div>
               </div>
-              <div className="text-center p-6 bg-earth-cream rounded-2xl">
+              <div className="text-center p-6 bg-white rounded-2xl shadow-soft">
                 <div className="text-4xl font-bold text-organic-green mb-2">100%</div>
                 <div className="text-earth-brown/70 font-medium">Satisfaction Rate</div>
               </div>
             </div>
             
-            <Button variant="earth" size="lg">
+            <Button variant="outline" size="lg" className="border-organic-green text-organic-green hover:bg-organic-green hover:text-white">
               View Research
             </Button>
           </div>
