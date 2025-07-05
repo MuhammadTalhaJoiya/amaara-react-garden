@@ -41,28 +41,22 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <button 
-              onClick={() => scrollToSection('shop')}
+              onClick={() => scrollToSection('services')}
               className="text-earth-brown hover:text-organic-green font-medium transition-colors duration-300"
             >
-              Shop
+              Services
             </button>
             <button 
-              onClick={() => scrollToSection('learn')}
+              onClick={() => scrollToSection('about')}
               className="text-earth-brown hover:text-organic-green font-medium transition-colors duration-300"
             >
               About
             </button>
             <button 
-              onClick={() => scrollToSection('reviews')}
+              onClick={() => scrollToSection('portfolio')}
               className="text-earth-brown hover:text-organic-green font-medium transition-colors duration-300"
             >
-              Reviews
-            </button>
-            <button 
-              onClick={() => scrollToSection('faq')}
-              className="text-earth-brown hover:text-organic-green font-medium transition-colors duration-300"
-            >
-              FAQ
+              Portfolio
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
@@ -75,7 +69,7 @@ const Header = () => {
           {/* Desktop CTA Button */}
           <div className="hidden lg:block">
             <Button variant="default" size="default">
-              Shop Now
+              Get Quote
             </Button>
           </div>
 
@@ -104,28 +98,22 @@ const Header = () => {
         }`}>
           <nav className="flex flex-col space-y-4 pt-4 border-t border-organic-green-muted">
             <button 
-              onClick={() => scrollToSection('shop')}
+              onClick={() => scrollToSection('services')}
               className="text-earth-brown hover:text-organic-green font-medium transition-colors text-left py-2"
             >
-              Shop
+              Services
             </button>
             <button 
-              onClick={() => scrollToSection('learn')}
+              onClick={() => scrollToSection('about')}
               className="text-earth-brown hover:text-organic-green font-medium transition-colors text-left py-2"
             >
               About
             </button>
             <button 
-              onClick={() => scrollToSection('reviews')}
+              onClick={() => scrollToSection('portfolio')}
               className="text-earth-brown hover:text-organic-green font-medium transition-colors text-left py-2"
             >
-              Reviews
-            </button>
-            <button 
-              onClick={() => scrollToSection('faq')}
-              className="text-earth-brown hover:text-organic-green font-medium transition-colors text-left py-2"
-            >
-              FAQ
+              Portfolio
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
@@ -135,7 +123,7 @@ const Header = () => {
             </button>
             <div className="pt-4">
               <Button variant="default" size="default" className="w-full">
-                Shop Now
+                Get Quote
               </Button>
             </div>
           </nav>
