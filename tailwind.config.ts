@@ -52,6 +52,20 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom Amaara brand colors
+        "organic-green": {
+          DEFAULT: "hsl(var(--organic-green))",
+          light: "hsl(var(--organic-green-light))",
+          dark: "hsl(var(--organic-green-dark))",
+          muted: "hsl(var(--organic-green-muted))",
+        },
+        "earth-brown": "hsl(var(--earth-brown))",
+        "earth-cream": "hsl(var(--earth-cream))",
+        "earth-beige": "hsl(var(--earth-beige))",
+      },
+      fontFamily: {
+        primary: "var(--font-primary)",
+        display: "var(--font-display)",
       },
       borderRadius: {
         lg: "var(--radius)",
